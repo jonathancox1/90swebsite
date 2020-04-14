@@ -1,0 +1,76 @@
+html {
+    background-image: url(images/background.png);
+    cursor: ☕;
+}
+.main_block {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    max-width: 800px;
+    background-image: url(images/liquid.jpeg);
+    border: 2px;
+    display: block;
+}
+.menu_bar {
+    background-color: #e1e1e1;
+    border-bottom: 4px solid black;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.content_block {
+    border: 2px;
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 25px;
+    margin: 50px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.content_block1 {
+    border: 2px;
+    width: auto;
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+    background-color: grey;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;  
+    display: inline-block;
+}
+#info {
+    background-color: lightgray;
+    width: 200px;
+    position: relative;
+    bottom: 50px
+}
+
+.content_block2 {
+    border: 2px;
+    width: auto;
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+    background-color: grey;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;  
+}
+
+
+form {
+    padding: 25px;
+    line-height: 40px;
+}
