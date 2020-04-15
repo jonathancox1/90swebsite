@@ -1,7 +1,7 @@
 html {
     background-image: url(images/background.png);
-    cursor: ☕;
 }
+
 .main_block {
     margin-left: auto;
     margin-right: auto;
@@ -13,6 +13,7 @@ html {
     border: 2px;
     display: block;
 }
+
 .menu_bar {
     background-color: #e1e1e1;
     border-bottom: 4px solid black;
@@ -22,12 +23,10 @@ html {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Courier New', Courier, monospace;
-    position: sticky;
-    top: 0px;
+    font-size: larger;
     text-align: center;
     vertical-align: middle;
 }
-
 
 .content_block {
     border: 2px;
@@ -45,17 +44,35 @@ html {
     width: auto;
     border-bottom: 4px solid black;
     border-radius: 5px;
-    background-color: grey;
+    background-color: lightgrey;
     padding: 25px;
     margin: 10px;
-    text-align: center;  
+    text-align: center;
     display: inline-block;
+    transition: transform 1.5s;
 }
+
+.content_block1:hover {
+    transform: scale(1.1);
+}
+
 #info {
     background-color: lightgray;
     width: 200px;
     position: relative;
-    bottom: 50px
+    bottom: 50px;
+    padding: 10px;
+}
+
+#info1 {
+    background-color: lightgray;
+}
+#big {
+    width: 50px;
+    transition: width 0.5s;
+}
+#big:hover {
+    width: 100px;
 }
 
 .content_block2 {
@@ -66,11 +83,17 @@ html {
     background-color: grey;
     padding: 25px;
     margin: 10px;
-    text-align: center;  
+    text-align: center;
 }
-
 
 form {
     padding: 25px;
     line-height: 40px;
+}
+
+#border_image {
+    border: 25px solid transparent;
+    padding: 10px;
+    border-image-source: url(images/bean1.png);
+    border-image-repeat: round;
 }
